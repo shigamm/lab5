@@ -1,0 +1,28 @@
+{
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.2",
+    "parcel": "^2.9.2",
+    "parcel-transformer-handlebars": "^1.0.0",
+    "parcel-transformer-hbs": "^1.0.4"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.0",
+    "handlebars": "^4.7.7",
+    "jquery": "^3.7.0",
+    "popper": "^1.0.1",
+    "transformer": "^1.2.8"
+  },
+  "name": "3",
+  "version": "1.0.0",
+  "default": "./src/index.html",
+  "source": "./src/index.html",
+  "scripts": {
+    "test": "mocha",
+    "dev": "parcel src/index.html",
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
